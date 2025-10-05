@@ -1,0 +1,130 @@
+h1 {
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  background-color: #092240;
+}
+
+h2 {
+  text-align: center;
+}
+
+.file {
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 5px 0;
+}
+
+.w-48 {
+  width: 48%;
+}
+
+.h-33 {
+  height: 33px;
+}
+
+.button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.button:disabled {
+  background-color: grey;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.textarea {
+  width: 100%;
+  height: 30vh;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.select {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard {
+  display: flex;
+  height: 87vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #092240;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.tool {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #f15a40;
+}
+
+.tool:hover,
+.tool.active {
+  background-color: #f15a40;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+
+.image-container {
+  display: flex;
+  overflow-x: scroll;
+  max-width: 800px;
+  /* flex-direction: row-reverse; */
+}
+
+.image-container img {
+    width: 200px;
+    height: 150px;
+    padding: 2px;
+    margin: 18px;
+    border: solid 1px #f15a40;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.list-form ul li:hover {
+  color: #3b82f6;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.list-container {
+  
+}
